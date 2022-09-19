@@ -31,7 +31,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 - 健壮性：Java与C++的最大不同在于Java采用的指针模型可以消除重写内存和损坏数据的可能性
 - 体系结构中立：精心设计的字节码不仅可以在任何机器上解释执行，而且可以动态地转化成本地机器代码
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-16-30-29-ZSSDMld.png)
+![](assets/2022-07-19-16-30-29-ZSSDMld.png)
 
 - 解释型：Java解释器可以在任何移植解释器的机器上直接执行Java字节码
 
@@ -107,7 +107,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 <img title="" src="file:///C:/Users/Administrator/AppData/Roaming/marktext/images/2022-07-19-17-45-50-image.png" alt="" width="645">
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-17-49-17-image.png)
+![](assets/2022-07-19-17-49-17-image.png)
 
 #### 变量和常量
 
@@ -137,17 +137,17 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
   
   - 空串检测
   
-  ![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-21-24-41-image.png)
+  ![](assets/2022-07-19-21-24-41-image.png)
   
   - `StringAPI`包含字符串的常用方法
   
   - 构建字符串-使用一个builder容器，向其中添加，然后整体输出为字符串
   
-  ![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-21-29-07-image.png)
+  ![](assets/2022-07-19-21-29-07-image.png)
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-21-05-47-image.png)
+![](assets/2022-07-19-21-05-47-image.png)
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-19-21-20-08-image.png)
+![](assets/2022-07-19-21-20-08-image.png)
 
 #### IO操作
 
@@ -181,7 +181,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - `switch`语句
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-20-21-01-42-image.png)
+![](assets/2022-07-20-21-01-42-image.png)
 
 - `break`和`continue`语句
 
@@ -197,11 +197,11 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - `for each`循环，下面说到了接口问题，可能类似Python中的类设计时为顶层函数预留的接口`__str__`或`__iter__`
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-20-21-20-18-image.png)
+![](assets/2022-07-20-21-20-18-image.png)
 
 - 数组拷贝
 
-![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-20-21-26-02-image.png)
+![](assets/2022-07-20-21-26-02-image.png)
 
 - 命令行参数：每一个Java应用程序都有一个带`String arg[]`参数的`main`方法。这个参数表明`main`方法将接收一个字符串数组，也就是命令行上指定的参数
 
@@ -263,7 +263,7 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - 静态常量(常用)：例如，在`Math`类中定义一个静态常量：
   
-  ![](C:\Users\Administrator\AppData\Roaming\marktext\images\2022-07-25-20-35-19-image.png)
+  ![](assets/2022-07-25-20-35-19-image.png)
   
   在程序中，可以用`Math.PI`来访问这个常量。
 
