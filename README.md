@@ -285,6 +285,28 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - 在包中增加类：`package ···`在源文件中放置`package`语句，这个源文件被放入包里
 
+## JavaWeb
+
+### JavaWeb介绍
+
+Web项目的构成：
+
+![image-20221128205354075](assets/image-20221128205354075.png)
+
+1. 网页：展现数据
+2. 数据库：存储和管理数据（数据可以通过数据库操作软件直接管理）
+3. JavaWeb程序：逻辑处理（实现比数据库操作软件更为复杂的动态管理）
+
+### 数据库的相关概念
+
+![image-20221128205814427](assets/image-20221128205814427.png)
+
+- 数据库(DataBase，简称DB)：存储数据的仓库，数据在其中**有组织**的进行存储
+- 数据库管理系统（DataBase Management System，简称DBMS）：管理数据库的大型软件（增、删、改、查），**MySql是一个数据库管理系统**
+
+- SQL（Structured Query Language，简称SQL）：结构化查询语言，操作关系型数据库的编程语言，定义操作所有**关系型**数据库的统一标准
+
+
 ### MySQL数据模型
 
 - 使用通用的SQL语言操作关系型数据库，使用方便，可用于复杂查询
