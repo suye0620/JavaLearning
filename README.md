@@ -285,6 +285,41 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 - 在包中增加类：`package ···`在源文件中放置`package`语句，这个源文件被放入包里
 
-![](assets/2022-09-19-12-18-58-image.png)
+### MySQL数据模型
 
-![image-20220919130725861](assets/image-20220919130725861.png)
+- 使用通用的SQL语言操作关系型数据库，使用方便，可用于复杂查询
+- MySQL是一个数据库管理系统，`create database`创建的是数据库，依属于MySQL。在文件系统中，**一个数据库就是一个文件夹，数据表和数据以文件形式存放，**如`*.frm`,`*.MYD`。
+
+### SQL简介&通用语法&分类
+
+- 语法
+  - 语句以分号结尾
+  - 关键词建议使用大写
+  - 注释：`/*多行注释*/`；`-- 注释内容`（没有空格会报错）或`#注释内容`
+
+- SQL分类
+
+![image-20221211161854141](assets/image-20221211161854141.png)
+
+![image-20221211161625902](assets/image-20221211161625902.png)
+
+- DDL--操作数据库
+
+  - `show databases;`显示所有数据库信息
+  - `create database DBNAME;`创建一个数据库。注意，不能创建同名的冲突数据库。故可使用`create database if not exists DBNAME;`
+  - `drop database if exists DBNAME;`删除数据库（判断，如果存在则删除）
+  - `select database();`查看当前使用的数据库
+  - `use DBNAME;`使用数据库
+
+- DDL--操作表
+
+  - 查询表
+
+    - `show tables;`查询当前数据库下所有表名称
+    - `desc TABLENAME;`查询表结构
+
+  - 创建表
+
+    ![image-20221211165258596](assets/image-20221211165258596.png)
+
+ 
